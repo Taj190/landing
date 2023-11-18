@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #FCAF02;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.nav-link > ul {
+    display: flex;
+}
+
+.nav-link > ul > li {
+    list-style: none;
+    padding: 15px 30px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.logo {
+    padding: 15px 100px;
+}
+
+.logo > h5 {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+}
+
+.logo > h5 > span {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+body{
+    background: #000;
+} 
+/* hero-container */
+.hero-container{
+    display: flex;
+   width: 90vw;
+   margin: auto;
+}
+.start-up{
+    display: flex;
+    flex-direction: column;
+}
+.start-up > h2{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 20px 0px;
+}
+.start-up > p{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 20px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin-bottom: 40px;
+}
+.start-up > button {
+    width: 323px;
+    height: 66px;
+    border-radius: 500px;
+   background: #FCAF02;
+   color: #000;
+font-family: Montserrat;
+font-size: 32px;
+border: none;
+
+}
+.jeff-img{
+    margin-top: 20px;
+}
+
+/*form */
+input:focus {
+    outline: none;
+}
+.form-container{
+    width: 90vw;
+    margin: auto;
+}
+.form-container > h2{
+    color: #FCAF02;
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.form-row > input{
+    background: #000;
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+border-radius: 100px;
+border: 2px solid #FCAF02;
+width: 90vw;
+margin-top: 20px;
+}
+
+.half-width{
+width: 90vw;
+margin-top: 10px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 20px;
+}
+.half-width > input {
+    background: #000;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 100px;
+    border: 2px solid #FCAF02;
+   width: 43vw;
+   margin-top: 20px;
+    
+}
+#mobile::placeholder,
+#city::placeholder,
+#name::placeholder,
+#email::placeholder {
+    color: #FCAF02;
+    font-size: 15px;
+    padding: 30px;
+}
+.center > button {
+border-radius: 100px;
+border: 2px solid #FCAF02;
+background: #FCAF02;
+color: #000;
+font-family: Montserrat;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+width: 250px;
+height: 72px;
+}
+.center{
+    margin: 40px 0px;
+    text-align: center;
+}
+
+
+table {
+    width: 90vw;
+    border-collapse: collapse;
+    margin:auto;
+    border: 1px solid #FCAF02;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border-left: 1px solid #FCAF02;
+ padding: 8px;
+text-align: left;
+color: #FCAF02;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+}
+th{
+    border-bottom: 1px solid #FCAF02; 
+}
+
+
+
+td:nth-child(3) {
+    width: 60%; 
+}
+
+tfoot {
+    font-weight: bold;
+ border: 1px solid #FCAF02;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+background-color: #FCAF02;
+}
+tfoot > tr > td{
+    color: #000;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
